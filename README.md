@@ -1,2 +1,2 @@
 # libflexlm
-Flexlm log file parser library
+Flexlm fluentd parser
