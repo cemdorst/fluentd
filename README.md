@@ -4,7 +4,7 @@
 Uses accounting log file from sgemaster. rsyslog directs the offline log file to a fluentd stream process
 rsyslog config
 
-`# SGE ACCOUNTING log file
+```# SGE ACCOUNTING log file
  $InputFileName /$OGE/default/common/accounting
  $InputFileTag sge:
  $InputFileStateFile sge-stat-file
@@ -13,7 +13,7 @@ rsyslog config
  $InputFileFacility local5
  $InputRunFileMonitor
  
- local5.*                                                @fluentdhost:5140`
+ local5.*                                                @fluentdhost:5140```
 
 
 <code>fluent_flexlm.conf</code> parser for FlexLM log files used by most EDA companies.
