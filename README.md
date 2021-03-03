@@ -13,9 +13,9 @@ rsyslog config
  $InputFileFacility local5
  $InputRunFileMonitor
  
- local5.*                                                @fluentdhost:5140```
-
-
+ local5.*                                                @fluentdhost:5140
+ ``` 
+ 
 <code>fluent_flexlm.conf</code> parser for FlexLM log files used by most EDA companies.
 
 <code>fluent_ibovespa.conf</code> parser for B3 (former bovespa) historical files
